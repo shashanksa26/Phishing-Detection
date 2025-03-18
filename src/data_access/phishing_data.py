@@ -54,7 +54,7 @@ class PhisingData:
         try:
             """
             export entire collectin as dataframe:
-            return dd.DataFrame of collection
+            return df.DataFrame of collection
             """
 
             collections = self.get_collection_names()
