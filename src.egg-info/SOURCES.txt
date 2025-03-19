@@ -1,7 +1,7 @@
 setup.py
 src/__init__.py
 src/exception.py
-src/logging.py
+src/logger.py
 src.egg-info/PKG-INFO
 src.egg-info/SOURCES.txt
 src.egg-info/dependency_links.txt
