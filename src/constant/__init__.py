@@ -1,7 +1,7 @@
 from datetime import datetime
 import os
 
-AWS_S3_BUCKET_NAME = "sensorpw"
+AWS_S3_BUCKET_NAME = "mysaphishing"
 MONGO_DATABASE_NAME = "phishing"
 
 TARGET_COLUMN = "Result"
