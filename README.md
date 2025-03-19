@@ -1,4 +1,4 @@
-# Phishing Classifier
+# Phishing Detection
 
 This project is a **Phishing Detection System** that uses machine learning to classify URLs as either phishing or legitimate. It is built using Python and includes a Flask-based web application for user interaction.
 
