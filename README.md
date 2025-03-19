@@ -27,7 +27,21 @@ The Phishing Classifier is designed to detect phishing URLs using a machine lear
 ## Project Structure
 
 The repository is organized as follows:
-Phishing-classifier/ ├── app.py # Flask application entry point ├── requirements.txt # Python dependencies ├── README.md # Project documentation ├── src/ │ ├── components/ # Data ingestion, validation, transformation, and model training │ ├── pipeline/ # Training and prediction pipelines │ ├── exception.py # Custom exception handling │ ├── logger.py # Logging configuration │ └── utils.py # Utility functions ├── artifacts/ # Saved models, logs, and other artifacts ├── config/ # Configuration files (e.g., schema, hyperparameters) ├── static/ # Static files (CSS, JS, images) ├── templates/ # HTML templates for the web app └── upload_data_to_db/ # Scripts for uploading data to MongoDB
+Phising-classifier/
+├── app.py # Flask application entry point
+├── requirements.txt # Python dependencies
+├── README.md # Project documentation
+├── src/
+│ ├── components/ # Data ingestion, validation, transformation, and model training
+│ ├── pipeline/ # Training and prediction pipelines
+│ ├── exception.py # Custom exception handling
+│ ├── logger.py # Logging configuration
+│ └── utils.py # Utility functions
+├── artifacts/ # Saved models, logs, and other artifacts
+├── config/ # Configuration files (e.g., schema, hyperparameters)
+├── static/ # Static files (CSS, JS, images)
+├── templates/ # HTML templates for the web app
+└── upload_data_to_db/ # Scripts for uploading data to MongoDB
 
 yaml
 Copy code
